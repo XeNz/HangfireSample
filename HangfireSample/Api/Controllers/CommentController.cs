@@ -6,9 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HangfireSample.Api.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CommentController : ControllerBase
+    [Route("api/comments")]
+    public class CommentController : Controller
     {
         private readonly ICommentService _commentService;
 
@@ -16,10 +15,16 @@ namespace HangfireSample.Api.Controllers
 
         // GET api/values
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Comment>>> Get() => Ok(await _commentService.GetAllComments());
+        public async Task<ActionResult<IEnumerable<Comment>>> Get()
+        {
+            return Ok(await _commentService.GetAllComments());
+        }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Comment>> Get(int id) => Ok(await _commentService.GetCommentById(id));
+        public async Task<ActionResult<Comment>> Get(int id)
+        {
+            return Ok(await _commentService.GetCommentById(id));
+        }
     }
 }

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\repositories\HangfireSample" t="IncludeFlat">
+    <e p="C:\Users\Alex\.Rider2018.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_HangfireSample.1225012131.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alex\RiderProjects\HangfireSample" t="IncludeFlat">
       <e p="HangfireSample" t="IncludeRecursive">
         <e p="Api" t="Include">
           <e p="Controllers" t="Include">
@@ -29,6 +32,7 @@
         </e>
         <e p="DependencyRegistration.cs" t="Include" />
         <e p="HangfireSample.csproj" t="IncludeRecursive" />
+        <e p="LoggingExtensions.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -45,8 +49,5 @@
       <e p="HangfireSample.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\alexander\.Rider2018.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\alexander\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\alexander\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_HangfireSample.1382730369.00" t="ExcludeRecursive" />
   </component>
 </project>

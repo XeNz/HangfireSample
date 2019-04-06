@@ -1,12 +1,16 @@
-FROM microsoft/dotnet:2.1-sdk AS build
+FROM microsoft/dotnet:2.2-sdk-stretch AS build-env
 WORKDIR /app
-COPY *.csproj ./
-RUN dotnet restore HangfireSample.csproj
 
+# Copy csproj and restore as distinct layers
+COPY ./HangfireSample/*.csproj ./
+RUN dotnet restore
+
+# Copy everything else and build
 COPY . ./
-RUN dotnet publish HangfireSample.csproj -c Release -o out
+RUN dotnet publish -c Release -o out
 
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS runtime
+# Build runtime image
+FROM microsoft/dotnet:2.2.2-aspnetcore-runtime-stretch-slim
 WORKDIR /app
-COPY — from=build /app/out .
-ENTRYPOINT [“dotnet”, “HangfireSample.dll”]`
+COPY --from=build-env /app/HangfireSample/out .
+ENTRYPOINT ["dotnet", "HangfireSample.dll"]

@@ -3,8 +3,10 @@ using Hangfire;
 using Hangfire.PostgreSql;
 using HangfireSample.Business.Services;
 using HangfireSample.Business.Services.Interfaces;
+using HangfireSample.DataProviders;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Serilog;
 
 namespace HangfireSample
 {
@@ -12,6 +14,8 @@ namespace HangfireSample
     {
         public static void AddBusinessServices(this IServiceCollection services)
         {
+            services.TryAddScoped<EntityContext>();
+
             services.TryAddScoped<ICommentService, CommentService>();
         }
 
@@ -27,16 +31,9 @@ namespace HangfireSample
 
         public static void ConfigureHangfireServices(this IServiceCollection services, string connectionString)
         {
-            GlobalConfiguration.Configuration
-                .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
-                .UseSimpleAssemblyNameTypeSerializer()
-                .UseRecommendedSerializerSettings()
-                .UsePostgreSqlStorage(connectionString, new PostgreSqlStorageOptions
-                {
-                    QueuePollInterval = TimeSpan.Zero,
-                    UseNativeDatabaseTransactions = true
-                });
-            services.AddHangfireServer();
+            GlobalConfiguration.Configuration.UsePostgreSqlStorage(connectionString);
+            var storage = JobStorage.Current;
+            services.AddHangfire(options => options.UseStorage(storage));
         }
     }
 }

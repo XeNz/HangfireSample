@@ -1,0 +1,14 @@
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\bin\Debug\netcoreapp2.2\HangfireSample.deps.json
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\bin\Debug\netcoreapp2.2\HangfireSample.runtimeconfig.json
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\bin\Debug\netcoreapp2.2\HangfireSample.runtimeconfig.dev.json
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\bin\Debug\netcoreapp2.2\HangfireSample.dll
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\bin\Debug\netcoreapp2.2\HangfireSample.pdb
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.csprojAssemblyReference.cache
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.csproj.CoreCompileInputs.cache
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.RazorAssemblyInfo.cache
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.RazorAssemblyInfo.cs
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.AssemblyInfoInputs.cache
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.AssemblyInfo.cs
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.RazorTargetAssemblyInfo.cache
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.dll
+C:\Users\Alex\RiderProjects\HangfireSample\HangfireSample\obj\Debug\netcoreapp2.2\HangfireSample.pdb

@@ -49,6 +49,7 @@ namespace HangfireSample.Business.Services
             return deserializedObject;
         }
 
+        // ReSharper disable once MemberCanBePrivate.Global
         public async Task UpdateCommentReadCounterJob(int commentId, DateTime readDate)
         {
             await _entityContext.CommentReadHistories.AddAsync(new CommentReadHistory(commentId, readDate));
