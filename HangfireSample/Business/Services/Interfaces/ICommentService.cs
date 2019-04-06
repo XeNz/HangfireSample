@@ -7,6 +7,6 @@ namespace HangfireSample.Business.Services.Interfaces
     public interface ICommentService
     {
         Task<IEnumerable<Comment>> GetAllComments();
-        Task<Comment> GetCommentById();
+        Task<Comment> GetCommentById(int commentId);
     }
 }
