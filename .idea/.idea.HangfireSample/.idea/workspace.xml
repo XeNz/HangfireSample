@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39fede4b-cacd-4aa0-b311-e3a86377dc6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.HangfireSample/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HangfireSample/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HangfireSample/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HangfireSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HangfireSample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/HangfireSample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/HangfireSample.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/HangfireSample.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/HangfireSample.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/HangfireSample.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/HangfireSample.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/HangfireSample.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/HangfireSample.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HangfireSample/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/HangfireSample/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,38 +30,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/Program.cs">
+        <entry file="file://$PROJECT_DIR$/HangfireSample/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="-413">
+              <caret lean-forward="true" />
               <folding>
-                <marker date="1554493657120" expanded="false" signature="6:145" ph="..." />
-                <marker date="1554493657120" expanded="true" signature="171:1047" ph="{...}" />
-                <marker date="1554493657120" expanded="true" signature="198:1045" ph="{...}" />
-                <marker date="1554493657120" expanded="true" signature="251:531" ph="{...}" />
-                <marker date="1554493657120" expanded="true" signature="329:393" ph="{...}" />
-                <marker date="1554493657120" expanded="true" signature="425:521" ph="{...}" />
-                <marker date="1554493657120" expanded="true" signature="766:968" ph="{...}" />
+                <marker date="1554561145793" expanded="true" signature="6:209" ph="..." />
+                <marker date="1554561145793" expanded="true" signature="235:1351" ph="{...}" />
+                <marker date="1554561145793" expanded="true" signature="262:1349" ph="{...}" />
+                <marker date="1554561145793" expanded="true" signature="578:945" ph="{...}" />
+                <marker date="1554561145793" expanded="true" signature="1133:1343" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/Startup.cs">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-              <folding>
-                <marker date="1554508512039" expanded="false" signature="6:418" ph="..." />
-                <marker date="1554508512039" expanded="true" signature="444:1772" ph="{...}" />
-                <marker date="1554508512039" expanded="true" signature="471:1770" ph="{...}" />
-                <marker date="1554508512039" expanded="true" signature="530:593" ph="{...}" />
-                <marker date="1554508512039" expanded="true" signature="816:1079" ph="{...}" />
-                <marker date="1554508512039" expanded="true" signature="1267:1764" ph="{...}" />
-                <marker date="1554508512039" expanded="true" signature="1314:1391" ph="{...}" />
-                <marker date="1554508512039" expanded="true" signature="1408:1611" ph="{...}" />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HangfireSample/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,104 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="139">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
-                <marker date="1554508774183" expanded="false" signature="6:211" ph="..." />
-                <marker date="1554508774183" expanded="true" signature="237:847" ph="{...}" />
-                <marker date="1554508774183" expanded="true" signature="286:845" ph="{...}" />
-                <marker date="1554508774183" expanded="true" signature="373:463" ph="{...}" />
-                <marker date="1554508774183" expanded="true" signature="540:839" ph="{...}" />
-                <marker date="1554508774183" expanded="true" signature="642:827" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/Api/Controllers/CommentController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <marker date="1554509206915" expanded="false" signature="6:184" ph="..." />
-                <marker date="1554509206915" expanded="true" signature="226:832" ph="{...}" />
-                <marker date="1554509206915" expanded="true" signature="332:830" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="45" column="128" lean-forward="true" selection-start-line="45" selection-start-column="128" selection-end-line="45" selection-end-column="128" />
-              <folding>
-                <marker date="1554511446734" expanded="false" signature="6:307" ph="..." />
-                <marker date="1554511446734" expanded="true" signature="351:2311" ph="{...}" />
-                <marker date="1554511446734" expanded="true" signature="403:2309" ph="{...}" />
-                <marker date="1554511446734" expanded="true" signature="682:798" ph="{...}" />
-                <marker date="1554511446734" expanded="true" signature="864:1147" ph="{...}" />
-                <marker date="1554511446734" expanded="true" signature="1157:1527" ph="/// This method has 2 functional purposes: ... " />
-                <marker date="1554511446734" expanded="true" signature="1592:2032" ph="{...}" />
-                <marker date="1554511446734" expanded="true" signature="2121:2303" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/DataProviders/EntityContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-              <folding>
-                <marker date="1554509731389" expanded="false" signature="6:79" ph="..." />
-                <marker date="1554509731389" expanded="true" signature="119:346" ph="{...}" />
-                <marker date="1554509731389" expanded="true" signature="164:344" ph="{...}" />
-                <marker date="1554509731389" expanded="true" signature="241:261" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/DataProviders/Models/CommentReadHistory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <marker date="1554509852603" expanded="true" signature="60:395" ph="{...}" />
-                <marker date="1554509852603" expanded="true" signature="98:393" ph="{...}" />
-                <marker date="1554509852603" expanded="true" signature="299:387" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/Business/Services/Interfaces/ICommentService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <marker date="1554509374526" expanded="false" signature="6:101" ph="..." />
-                <marker date="1554509374526" expanded="true" signature="156:315" ph="{...}" />
-                <marker date="1554509374526" expanded="true" signature="195:313" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HangfireSample/Business/Models/Comment.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1554508288760" expanded="true" signature="40:90" ph="{...}" />
-                <marker date="1554508288760" expanded="true" signature="67:88" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="6:254" ph="..." />
+                <marker date="1554561185812" expanded="true" signature="280:1528" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="329:1526" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="416:506" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="583:882" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="685:870" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="995:1520" ph="{...}" />
+                <marker date="1554561185812" expanded="true" signature="1335:1466" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -163,16 +97,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/HangfireSample/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HangfireSample/Business/Models/Comment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HangfireSample/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HangfireSample/DataProviders/EntityContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HangfireSample/DataProviders/Models/CommentReadHistory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HangfireSample/obj/Debug/netcoreapp2.2/HangfireSample.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HangfireSample/Api/Controllers/CommentController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/DataProviders/Models/CommentReadHistory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/DataProviders/EntityContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1ECEFA31-6AFC-4DAE-9AB4-CB0933ABE770/eb/bca5f5ae/HangfireServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HangfireSample/Business/Services/Interfaces/ICommentService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/Api/Controllers/CommentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HangfireSample/Business/Models/Comment.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -185,32 +120,49 @@
         <option value="$PROJECT_DIR$/HangfireSample/Business/Models/Comment.cs" />
         <option value="$PROJECT_DIR$/HangfireSample/Business/Services/Interfaces/CommentService.cs" />
         <option value="$PROJECT_DIR$/HangfireSample/Business/Services/Interfaces/ICommentService.cs" />
-        <option value="$PROJECT_DIR$/HangfireSample/Startup.cs" />
-        <option value="$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs" />
         <option value="$PROJECT_DIR$/HangfireSample/Api/Controllers/CommentController.cs" />
         <option value="$PROJECT_DIR$/HangfireSample/DataProviders/EntityContext.cs" />
         <option value="$PROJECT_DIR$/HangfireSample/DataProviders/Models/CommentReadHistory.cs" />
         <option value="$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs" />
+        <option value="$PROJECT_DIR$/HangfireSample/DataProviders/DatabaseSettings.cs" />
+        <option value="$PROJECT_DIR$/HangfireSample/appsettings.json" />
+        <option value="$PROJECT_DIR$/HangfireSample/Startup.cs" />
+        <option value="$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="580" />
-    <option name="y" value="205" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
+    <option name="height" value="2098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="hangfireSample" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="hangfireSample" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="HangfireSample" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -277,11 +229,12 @@
       <workItem from="1554491118126" duration="1468000" />
       <workItem from="1554492792995" duration="8860000" />
       <workItem from="1554552699261" duration="1933000" />
+      <workItem from="1554558630219" duration="3690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12925000" />
+    <option name="totallyTimeSpent" value="16615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,10 +246,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13791732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15224682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -308,7 +261,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49960256" weight="0.20494974" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49960256" weight="0.2122905" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" sideWeight="0.49960256" weight="0.32946634" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -326,6 +279,37 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15224682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49960256" visible="true" weight="0.2122905" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" sideWeight="0.49960256" weight="0.32946634" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49920508" weight="0.22119103" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50039744" side_tool="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Change Signature" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -342,138 +326,166 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HangfireSample/Business.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
     <entry file="file://$PROJECT_DIR$/HangfireSample/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="360">
           <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <marker date="1554493657120" expanded="false" signature="6:145" ph="..." />
-            <marker date="1554493657120" expanded="true" signature="171:1047" ph="{...}" />
-            <marker date="1554493657120" expanded="true" signature="198:1045" ph="{...}" />
-            <marker date="1554493657120" expanded="true" signature="251:531" ph="{...}" />
-            <marker date="1554493657120" expanded="true" signature="329:393" ph="{...}" />
-            <marker date="1554493657120" expanded="true" signature="425:521" ph="{...}" />
-            <marker date="1554493657120" expanded="true" signature="766:968" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HangfireSample/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <marker date="1554508512039" expanded="false" signature="6:418" ph="..." />
-            <marker date="1554508512039" expanded="true" signature="444:1772" ph="{...}" />
-            <marker date="1554508512039" expanded="true" signature="471:1770" ph="{...}" />
-            <marker date="1554508512039" expanded="true" signature="530:593" ph="{...}" />
-            <marker date="1554508512039" expanded="true" signature="816:1079" ph="{...}" />
-            <marker date="1554508512039" expanded="true" signature="1267:1764" ph="{...}" />
-            <marker date="1554508512039" expanded="true" signature="1314:1391" ph="{...}" />
-            <marker date="1554508512039" expanded="true" signature="1408:1611" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <marker date="1554508774183" expanded="false" signature="6:211" ph="..." />
-            <marker date="1554508774183" expanded="true" signature="237:847" ph="{...}" />
-            <marker date="1554508774183" expanded="true" signature="286:845" ph="{...}" />
-            <marker date="1554508774183" expanded="true" signature="373:463" ph="{...}" />
-            <marker date="1554508774183" expanded="true" signature="540:839" ph="{...}" />
-            <marker date="1554508774183" expanded="true" signature="642:827" ph="{...}" />
+            <marker date="1554558605378" expanded="false" signature="6:145" ph="..." />
+            <marker date="1554558605378" expanded="true" signature="171:1047" ph="{...}" />
+            <marker date="1554558605378" expanded="true" signature="198:1045" ph="{...}" />
+            <marker date="1554558605378" expanded="true" signature="251:531" ph="{...}" />
+            <marker date="1554558605378" expanded="true" signature="329:393" ph="{...}" />
+            <marker date="1554558605378" expanded="true" signature="425:521" ph="{...}" />
+            <marker date="1554558605378" expanded="true" signature="766:968" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HangfireSample/Api/Controllers/CommentController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="384">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
-            <marker date="1554509206915" expanded="false" signature="6:184" ph="..." />
-            <marker date="1554509206915" expanded="true" signature="226:832" ph="{...}" />
-            <marker date="1554509206915" expanded="true" signature="332:830" ph="{...}" />
+            <marker date="1554558605346" expanded="false" signature="6:184" ph="..." />
+            <marker date="1554558605346" expanded="true" signature="226:832" ph="{...}" />
+            <marker date="1554558605346" expanded="true" signature="332:830" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HangfireSample/DataProviders/EntityContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="240">
           <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
           <folding>
-            <marker date="1554509731389" expanded="false" signature="6:79" ph="..." />
-            <marker date="1554509731389" expanded="true" signature="119:346" ph="{...}" />
-            <marker date="1554509731389" expanded="true" signature="164:344" ph="{...}" />
-            <marker date="1554509731389" expanded="true" signature="241:261" ph="{...}" />
+            <marker date="1554558605368" expanded="false" signature="6:79" ph="..." />
+            <marker date="1554558605368" expanded="true" signature="119:346" ph="{...}" />
+            <marker date="1554558605368" expanded="true" signature="164:344" ph="{...}" />
+            <marker date="1554558605368" expanded="true" signature="241:261" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HangfireSample/DataProviders/Models/CommentReadHistory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="216">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <marker date="1554509852603" expanded="true" signature="60:395" ph="{...}" />
-            <marker date="1554509852603" expanded="true" signature="98:393" ph="{...}" />
-            <marker date="1554509852603" expanded="true" signature="299:387" ph="{...}" />
+            <marker date="1554558605347" expanded="true" signature="60:395" ph="{...}" />
+            <marker date="1554558605347" expanded="true" signature="98:393" ph="{...}" />
+            <marker date="1554558605347" expanded="true" signature="299:387" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HangfireSample/Business/Services/Interfaces/ICommentService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="144">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <marker date="1554509374526" expanded="false" signature="6:101" ph="..." />
-            <marker date="1554509374526" expanded="true" signature="156:315" ph="{...}" />
-            <marker date="1554509374526" expanded="true" signature="195:313" ph="{...}" />
+            <marker date="1554558605370" expanded="false" signature="6:101" ph="..." />
+            <marker date="1554558605370" expanded="true" signature="156:315" ph="{...}" />
+            <marker date="1554558605370" expanded="true" signature="195:313" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HangfireSample/Business/Models/Comment.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="96">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1554508288760" expanded="true" signature="40:90" ph="{...}" />
-            <marker date="1554508288760" expanded="true" signature="67:88" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="40:90" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="67:88" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HangfireSample/Business/Services/CommentService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="45" column="128" lean-forward="true" selection-start-line="45" selection-start-column="128" selection-end-line="45" selection-end-column="128" />
+        <state relative-caret-position="864">
+          <caret line="45" column="128" selection-start-line="45" selection-start-column="128" selection-end-line="45" selection-end-column="128" />
           <folding>
-            <marker date="1554511446734" expanded="false" signature="6:307" ph="..." />
-            <marker date="1554511446734" expanded="true" signature="351:2311" ph="{...}" />
-            <marker date="1554511446734" expanded="true" signature="403:2309" ph="{...}" />
-            <marker date="1554511446734" expanded="true" signature="682:798" ph="{...}" />
-            <marker date="1554511446734" expanded="true" signature="864:1147" ph="{...}" />
-            <marker date="1554511446734" expanded="true" signature="1157:1527" ph="/// This method has 2 functional purposes: ... " />
-            <marker date="1554511446734" expanded="true" signature="1592:2032" ph="{...}" />
-            <marker date="1554511446734" expanded="true" signature="2121:2303" ph="{...}" />
+            <marker date="1554558605356" expanded="false" signature="6:307" ph="..." />
+            <marker date="1554558605356" expanded="true" signature="351:2311" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="403:2309" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="682:798" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="864:1147" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="1157:1527" ph="/// This method has 2 functional purposes: ... " />
+            <marker date="1554558605356" expanded="true" signature="1592:2032" ph="{...}" />
+            <marker date="1554558605356" expanded="true" signature="2121:2303" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HangfireSample/DataProviders/DatabaseSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1ECEFA31-6AFC-4DAE-9AB4-CB0933ABE770/eb/bca5f5ae/HangfireServiceCollectionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HangfireSample/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HangfireSample/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HangfireSample/DependencyRegistration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1554561185812" expanded="true" signature="6:254" ph="..." />
+            <marker date="1554561185812" expanded="true" signature="280:1528" ph="{...}" />
+            <marker date="1554561185812" expanded="true" signature="329:1526" ph="{...}" />
+            <marker date="1554561185812" expanded="true" signature="416:506" ph="{...}" />
+            <marker date="1554561185812" expanded="true" signature="583:882" ph="{...}" />
+            <marker date="1554561185812" expanded="true" signature="685:870" ph="{...}" />
+            <marker date="1554561185812" expanded="true" signature="995:1520" ph="{...}" />
+            <marker date="1554561185812" expanded="true" signature="1335:1466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HangfireSample/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret lean-forward="true" />
+          <folding>
+            <marker date="1554561145793" expanded="true" signature="6:209" ph="..." />
+            <marker date="1554561145793" expanded="true" signature="235:1351" ph="{...}" />
+            <marker date="1554561145793" expanded="true" signature="262:1349" ph="{...}" />
+            <marker date="1554561145793" expanded="true" signature="578:945" ph="{...}" />
+            <marker date="1554561145793" expanded="true" signature="1133:1343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>

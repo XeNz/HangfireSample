@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Alex\\RiderProjects\\HangfireSample\\HangfireSample\\HangfireSample.csproj",
+    "projectUniqueName": "C:\\repositories\\hangfireSample\\HangfireSample\\HangfireSample.csproj",
     "projectName": "HangfireSample",
-    "projectPath": "C:\\Users\\Alex\\RiderProjects\\HangfireSample\\HangfireSample\\HangfireSample.csproj",
-    "outputPath": "C:\\Users\\Alex\\RiderProjects\\HangfireSample\\HangfireSample\\obj\\",
+    "projectPath": "C:\\repositories\\hangfireSample\\HangfireSample\\HangfireSample.csproj",
+    "outputPath": "C:\\repositories\\hangfireSample\\HangfireSample\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,10 @@
         "Hangfire.AspNetCore": {
           "target": "Package",
           "version": "[1.7.0, )"
+        },
+        "Hangfire.PostgreSql": {
+          "target": "Package",
+          "version": "[1.5.0, )"
         },
         "Microsoft.AspNetCore.App": {
           "suppressParent": "All",

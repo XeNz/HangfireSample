@@ -1,4 +1,6 @@
 using System;
+using Hangfire;
+using Hangfire.PostgreSql;
 using HangfireSample.Business.Services;
 using HangfireSample.Business.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +23,20 @@ namespace HangfireSample
                 c.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/");
                 c.DefaultRequestHeaders.Add("Accept", "application/json");
             });
+        }
+
+        public static void ConfigureHangfireServices(this IServiceCollection services, string connectionString)
+        {
+            GlobalConfiguration.Configuration
+                .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
+                .UseSimpleAssemblyNameTypeSerializer()
+                .UseRecommendedSerializerSettings()
+                .UsePostgreSqlStorage(connectionString, new PostgreSqlStorageOptions
+                {
+                    QueuePollInterval = TimeSpan.Zero,
+                    UseNativeDatabaseTransactions = true
+                });
+            services.AddHangfireServer();
         }
     }
 }

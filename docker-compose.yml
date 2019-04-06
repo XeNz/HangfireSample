@@ -1,0 +1,12 @@
+version: '1.0'
+
+networks:
+  hangfiresample-dev:
+    driver: bridge
+    
+  services:
+    hangfiresample:
+      image:hangfiresample:latest
+      dependson: 
+        -"postgres_image"
+      build
