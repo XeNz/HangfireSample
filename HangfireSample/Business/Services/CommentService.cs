@@ -31,6 +31,13 @@ namespace HangfireSample.Business.Services
             return JsonConvert.DeserializeObject<IEnumerable<Comment>>(await responseMessage.Content.ReadAsStringAsync());
         }
 
+        /// <summary>
+        /// This method has 2 functional purposes:
+        /// 1. Get a comment by commentId from an external service
+        /// 2. After receiving this comment, launch a fire-and-forget job that creates a 'CommentReadHistory' entry.
+        /// </summary>
+        /// <param name="commentId">The comment Identifier</param>
+        /// <returns></returns>
         public async Task<Comment> GetCommentById(int commentId)
         {
             var client = _httpClientFactory.CreateClient(CommentApi);
