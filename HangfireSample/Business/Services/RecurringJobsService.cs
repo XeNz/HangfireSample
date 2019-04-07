@@ -38,10 +38,9 @@ namespace HangfireSample.Business.Services
         {
             using (var commentService = _scope.ServiceProvider.GetRequiredService<ICommentService>())
             {
+                // every 5 minutes
                 RecurringJob.AddOrUpdate(() => commentService.UpdateHistoryCount(), "*/5 * * * *");
             }
-
-            // every 5 minutes
         }
     }
 }
