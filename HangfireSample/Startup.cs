@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using Hangfire;
+﻿using Hangfire;
+using HangfireSample.Business.Services;
 using HangfireSample.DataProviders;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,7 +20,7 @@ namespace HangfireSample
         public void ConfigureServices(IServiceCollection services)
         {
             var connString = Configuration.GetConnectionString("defaultConnection");
-            
+
             services.AddMvc(options => { options.EnableEndpointRouting = true; })
                 .AddControllersAsServices()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -29,6 +28,8 @@ namespace HangfireSample
             services.AddBusinessServices();
             services.AddHttpClients();
             services.ConfigureHangfireServices(connString);
+            services.AddHostedService<RecurringJobsService>();
+            services.AddMemoryCache();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +40,6 @@ namespace HangfireSample
                 policy.AllowAnyHeader();
                 policy.AllowAnyMethod();
                 policy.AllowAnyOrigin();
-                policy.AllowCredentials();
             });
 
             if (env.IsDevelopment())
