@@ -93,6 +93,7 @@ namespace HangfireSample.Business.Services
 
         public void Dispose()
         {
+            _entityContext.Dispose();
         }
     }
 }
