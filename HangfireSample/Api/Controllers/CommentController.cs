@@ -13,14 +13,24 @@ namespace HangfireSample.Api.Controllers
 
         public CommentController(ICommentService commentService) => _commentService = commentService;
 
-        // GET api/values
+        /// <summary>
+        /// Get all comments
+        /// GET api/comments
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Comment>>> Get()
         {
             return Ok(await _commentService.GetAllComments());
         }
 
-        // GET api/values/5
+        /// <summary>
+        /// Get a comment by Id
+        /// 
+        /// GET api/comments/5
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<Comment>> Get(int id)
         {
