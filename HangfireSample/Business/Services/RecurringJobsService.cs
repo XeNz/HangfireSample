@@ -22,19 +22,46 @@ namespace HangfireSample.Business.Services
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            EnqueueStartupJobs();
+            EnqueueRecurringJobs();
+
+            return Task.CompletedTask;
+        }
+
+        private void EnqueueStartupJobs()
+        {
             try
             {
-                CreateFiveMinutelyCommentHistoryViewCount();
+                CreateommentHistoryViewCountUpdateForStartup();
+            }
+            catch (Exception e)
+            {
+                _logger.LogError("Error while enqueueing startup job", e);
+            }
+        }
+
+        private void EnqueueRecurringJobs()
+        {
+            try
+            {
+                CreateFiveMinutelyCommentHistoryViewCountUpdate();
             }
             catch (Exception e)
             {
                 _logger.LogError("Error while enqueueing recurring job", e);
             }
-
-            return Task.CompletedTask;
         }
 
-        private void CreateFiveMinutelyCommentHistoryViewCount()
+        private void CreateommentHistoryViewCountUpdateForStartup()
+        {
+            using (var commentService = _scope.ServiceProvider.GetRequiredService<ICommentService>())
+            {
+                // every 5 minutes
+                BackgroundJob.Enqueue(() => commentService.UpdateHistoryCount());
+            }
+        }
+
+        private void CreateFiveMinutelyCommentHistoryViewCountUpdate()
         {
             using (var commentService = _scope.ServiceProvider.GetRequiredService<ICommentService>())
             {
