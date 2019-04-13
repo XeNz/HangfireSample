@@ -13,13 +13,13 @@ HangfireSample is a sample project to illustrate possible usages of Hangfire
 
 ## Minor functional cases / ideas interwoven in this project 
 
-###Main functional flows
+### Main functional flows
 
 * A user can view a list of comments
 * A user can view one comment in particular
 * An external system can see how many times a comment has been viewed
 
-###Secondary functional and technical requirements
+### Secondary functional and technical requirements
 
 #### Not letting the user wait for calculations that do not concern him
 * When viewing a comment, we would like to update the view count of that comment. We would like it that the user does not have to wait on his response for this to happen.
